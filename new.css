@@ -1,0 +1,78 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-image: url("revenge\ shopping.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+ .navbar{
+    background-color: rgb(65, 3, 65);
+    display: flex;
+    padding:10px;
+    transition-property: initial;
+
+ }
+ body{
+     
+    font-family: 'Poppins', sans-serif;
+  }
+ .head{
+    color:white;
+ }
+ .box{
+    justify-content: space-between;
+    margin-left: 600px;
+    margin-right: 50px;
+   
+ }
+ ul{
+    display: flex;
+    padding: 10px;
+    font-size: 25px;
+    list-style: none;
+    color:aqua
+  
+ }
+ ul:hover{
+    color: white;
+    
+ }
+ li{
+  margin-right: 20px;
+ }
+ .cont{
+ margin-top: 50px;
+ margin-left: 50px;
+ font-size: 60px;
+ }
+ .cont-one{
+    margin-left: 120px;
+    color: rgb(65, 3, 65);
+    font-size: 40px;
+ }
+ .right-cont{
+    display: flex;
+    float: right;
+    font-size: 40px;
+    color: black;
+    margin-top: 50px;
+ }
+ .buttons{
+    background-color: orange;
+    color:black;
+    border:none;
+    width: 130px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    float: right;
+    font-size: 20px;
+    margin-left: 100%;
+    margin-right: 12%;
+    margin-top: 20px;
+    border-radius: 25px;
+ }
